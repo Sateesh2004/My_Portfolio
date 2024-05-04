@@ -20,6 +20,13 @@ gsap.from(".logo", {
     delay: 1,
     stagger: 0.2 
   });
+  gsap.from("section", {
+    y: -50,
+    opacity: 0,
+    duration: 1,
+    delay: 2,
+    stagger: 0.2 
+  });
   gsap.from(".features", {
     y: -50,
     opacity: 0,
@@ -35,45 +42,50 @@ gsap.from(".logo", {
     stagger: 0.2 
   });
   gsap.from("#features-card-1", {
-    // y:-600,
+    y:-600,
+    x:-600,
     opacity: 0,
     duration: 1,
     delay: 2.2
     
   });
   gsap.from("#features-card-2", {
-    x:-300,
-    opacity: 0,
-    duration: 1,
-    delay: 3.2
     
-  });
-  gsap.from("#features-card-3", {
-    x:-300,
-    opacity: 0,
-    duration: 1,
-    delay: 4.2
-    
-  });
-  gsap.from("#features-card-4", {
     y:-300,
     opacity: 0,
     duration: 1,
-    delay: 3.2
+    delay: 2.2
+    
+  });
+  gsap.from("#features-card-3", {
+    x:600,
+    y:-600,
+    opacity: 0,
+    duration: 1,
+    delay: 2.2
+    
+  });
+  gsap.from("#features-card-4", {
+    y:600,
+    x:-600,
+    opacity: 0,
+    duration: 1,
+    delay: 2.2
     
   });
   gsap.from("#features-card-5", {
-    x:-300,
+    x:300,
     opacity: 0,
     duration: 1,
-    delay: 5.2
+    delay: 2.2
     
   });
   gsap.from("#features-card-6", {
-    x:-300,
+    x:600,
+    y:600,
     opacity: 0,
     duration: 1,
-    delay: 6.2
+    delay: 2.2
     
   });
 
