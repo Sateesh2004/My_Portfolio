@@ -341,8 +341,11 @@ section #features-section .features-card-container .features-card p i{
       section #features-section .features-card-container .features-card .responsive{
         /* border:2px solid red; */
         position:relative;
-        bottom:20px
+        bottom:20px;
       }
+      section #features-section .features-card-container .features-card p .description{
+        font-size: 1.2rem;
+    }
     }
   
   
