@@ -200,6 +200,7 @@ section #home .home-left .social-icon-container div p{
 }
 section #home .home-left .social-icon-container div a{
   margin-right:10px;
+  margin-top:1px;
   display: inline-block;
  /* border:2px solid red; */
   height:55px;
@@ -213,7 +214,8 @@ section #home .home-left .social-icon-container div a{
   border:3px solid var(--primary-bc-color--);
   color:var(--primary-text-color--);
   transition: all 0.5s ease 0s;
-  transform:translateY(0px)
+  transform:translateY(0px);
+  /* border:2px solid red; */
 }
 section #home .home-left .social-icon-container div a:hover{
   box-shadow: 0px 0px 0px rgba(0, 0, 0, 0),inset 0px 0px 0px rgba(255, 255, 255, 0);

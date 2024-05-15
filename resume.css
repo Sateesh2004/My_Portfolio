@@ -306,7 +306,7 @@ section .resume-section .my-resume-title{
   {
     section #home{
      
-     border:2px solid red;
+     /* border:2px solid red; */
      align-items: center;
       flex-direction: column-reverse;
     
